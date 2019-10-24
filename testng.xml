@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component Tests">
+  <test name="loginTest" preserve-order="true" >
+    <classes>
+      <class name="com.selenium.tests.WebAppTest" />
+    </classes>
+  </test>
+</suite>
